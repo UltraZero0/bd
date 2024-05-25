@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    background-color: #ffe4e1; /* This color will be displayed as the background */
+    /* background-image: url('https://example.com/new-image.jpg'); Removed this line */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button-container {
+    margin: 20px;
+}
+
+#birthday-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ff4500;
+    text-shadow: 2px 2px #ffa07a;
+}
+
+.video-container {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1080px;
+    height: auto;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    max-height: calc(100vh - 60px);
+}
